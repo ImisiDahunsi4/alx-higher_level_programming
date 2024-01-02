@@ -16,4 +16,3 @@ python3 -c "$(cat $TMP_PY_FILE)"
 # Clean up temporary file
 rm "$TMP_PY_FILE"
 
-
