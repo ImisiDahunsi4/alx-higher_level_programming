@@ -1,5 +1,5 @@
 #!/bin/usr/python3
-for _ in range(97, 123):
-    if chr(_) == "q" or chr(_) == "e":
+for i in range(97, 123):
+    if chr(i) == "q" or chr(i) == "e":
         continue
-    print(f"{chr(_)}", end="")
+    print(f"{chr(i)}", end="")
