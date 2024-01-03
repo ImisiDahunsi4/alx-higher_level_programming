@@ -1,7 +1,7 @@
-#!/bin/usr/python3
-for i in range(10):
-    for j in range(i + 1, 10):
-        if i == 9 and j == 8 or i == 8 and j == 9:
-            print(f"{i}{j}")
+#!/usr/bin/python3
+for x in range(0, 10):
+    for y in range(x + 1, 10):
+        if x == 8 and y == 9:
+            print('89')
         else:
-            print(f"{i}{j}, ", end="")
+            print('{}{}, '.format(x, y), end='')
