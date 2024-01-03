@@ -5,7 +5,7 @@ def uppercase(str):
             uppernum = chr(ord(uppernum)- 32)
             print(uppernum, end="")
     print("\n")
-    
 
-         
+
+
 uppercase("best")
