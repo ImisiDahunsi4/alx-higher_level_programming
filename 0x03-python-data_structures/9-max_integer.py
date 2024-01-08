@@ -8,3 +8,4 @@ def max_integer(my_list=[]):
             if my_list[i] > maxu:
                 maxu = my_list[i]
         return maxu
+    
